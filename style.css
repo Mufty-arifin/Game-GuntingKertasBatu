@@ -55,7 +55,7 @@ li {
   border-radius: 40px 40px 0 0;
 }
 .tittle-com{
-    margin-top: -20px;
+    margin-top: -50px;
 }
 img {
   width: 130px;
@@ -103,24 +103,24 @@ h2{
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
-.gajah,
-.orang,
-.semut {
+.gunting,
+.kertas,
+.batu {
   transition: 0.3s;
   position: relative;
   top: 0;
   cursor: pointer;
 }
 
-.gajah:hover,
-.semut:hover,
-.orang:hover,
+.gunting:hover,
+.kertas:hover,
+.batu:hover,
 .active {
-  box-shadow: 0 0 10px 5px limegreen;
+  box-shadow: 0 0 5px 5px rgb(244, 253, 210);
 }
 
-.gajah:active,
-.semut:active,
-.orang:active {
+.gunting:active,
+.kertas:active,
+.batu:active {
   top: 2px;
 }
