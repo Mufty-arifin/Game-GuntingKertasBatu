@@ -2,20 +2,20 @@ class Game {
   constructor(playerChoice) {
     this.playerChoice = playerChoice;
     this.comChoice = ["Batu", "Gunting", "Kertas"][Math.floor(Math.random() * 3)]; // komputer random
-    this.result = "Draw";
+    this.result = "DRAW";
   }
 
   start() {
     if (this.playerChoice === this.comChoice) {
-      this.result = "Draw";
+      this.result = "DRAW";
     } else if (
       (this.playerChoice === "Batu" && this.comChoice === "Gunting") ||
       (this.playerChoice === "Gunting" && this.comChoice === "Kertas") ||
       (this.playerChoice === "Kertas" && this.comChoice === "Batu")
     ) {
-      this.result = "Player Win";
+      this.result = "MENANG";
     } else {
-      this.result = "Computer Win";
+      this.result = "KALAH";
     }
     return this.result;
   }
