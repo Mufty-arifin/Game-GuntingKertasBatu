@@ -124,3 +124,28 @@ h2{
 .batu:active {
   top: 2px;
 }
+
+@media screen and (max-width: 600px) {
+  .container{
+    width: 500px;
+  padding: 0px;
+  margin-top: 50px;
+  }
+  h1{
+    font-size: 40px;
+  }
+  .area-komputer{
+    width: 400px;
+  }
+  .area-player{
+    width: 400px;
+  }
+  img {
+  width: 86px;
+  height:86px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+}
+
